@@ -20,8 +20,6 @@ public class RedmiTest {
 		WebDriver driver;
 		@Test(priority = 1)
 		public void openBrowser() throws Exception {
-			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\sreen\\Selenium\\drivers\\chromedriver3.exe");
 			 driver = new ChromeDriver();
 		        driver.manage().window().maximize();
 			

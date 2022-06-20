@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ContinuousTestingDevops" verbose="1" >
+  
+  
+
+ <test name="1.LoginPageTest" >
+    <classes>
+       <class name="continuousTesting.LoginPage" />
+    </classes>
+  </test>
+    
+     <test name="2.PriceSliderTest" >
+    <classes>
+       <class name="continuousTesting.PriceSlider" />
+    </classes>
+  </test>
+ 
+ <test name="3.RedmiTest" >
+    <classes>
+       <class name="continuousTesting.RedmiTest" />
+    </classes>
+  </test>
+  
+  </suite>
